@@ -1,0 +1,44 @@
+body{
+background-color: #333;
+}
+h1.titulo#tit{
+    background-color: blueviolet;
+
+}
+.titulo{
+    background-color: lightblue ;
+}
+.text{
+    color:indianred;
+}
+.link{
+    
+    color: inherit;
+}
+.list{
+    color:darkorange;
+}
+.list-item-1{
+    color: brown;
+}
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    background-color: brown;
+}
+.block{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    margin: 100px 50px 10px 200px;
+}
+/*
+margin: arriba-izquierda-abajo-derecha
+*/
+.inline{
+    background-color: lightcyan;
+    color: inherit;
+    margin-top: 100px;
+}
+

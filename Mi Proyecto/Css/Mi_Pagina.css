@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background:linear-gradient(220deg,#9B0914,#090909);
+    display: flex;
+    justify-content: space-between;
+    height: 123px;
+}
+/* Primer Div  */
+/* .desplegable{
+    position: absolute;
+    background-color: brown;
+    left: 2px;
+} */
+/* Logo-Nombre */
+.seccion_logo{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+/* Icono */
+.logo_juego{
+    width: 120px;
+}
+.link{
+    position: absolute;
+    left: 50px;
+    top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+/* Buscador Div */
+.buscador{
+    padding: 10px;
+    margin-top: 30px;
+    display: inline-block;
+}
+/* Buscador Input */
+.buscar{
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin-right: 150px;
+    background: linear-gradient(350deg,#052122,#000000);
+}
+nav .cate_base a:hover{
+    display: block;
+    color: #13393B;
+}
+/* Opciones-UL */
+nav {
+    float:right;
+    margin-right:20px;
+    list-style: none;
+}
+nav ul{
+    line-height: 80px;
+    margin-top:18px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.cate_aparecer{
+    display: none;
+}
+.cate_base{
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;
+    height: 10px;
+}
+.cate_base:hover{
+    background-color: black;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    border-radius: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: linear-gradient(220deg,#07D4E2,#13393B);
+}
+nav .cate_base a:hover{
+    display: block;
+    color: #13393B;
+}
+/* Menu Deplegable */
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    line-height: 80px;
+    margin-right: 40px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    
+
+}
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+}
