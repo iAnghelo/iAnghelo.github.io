@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+    /* background:linear-gradient(210deg,rgb(9, 51, 240), rgb(202, 13, 42)); */
+    background-image: url(../Imagenes/58JHS9.png);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Source Sans 3', sans-serif;
+    height: 100vh;
+}
+.cuerpo{
+    background:linear-gradient(210deg,rgb(119, 11, 146), rgb(240, 55, 9));
+    width: 320px;
+    height: 420px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 3px 0px 10px 2px rgba(0,0,0,0.5);
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+H1{
+    top: 40px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    width: 300px;
+    right: 1px;
+}
+form{
+    margin-top:40px;
+}
+
+.cuerpo label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.boton{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:linear-gradient(210deg, rgb(240, 55, 9),rgb(119, 11, 146)) ;
+    font-size: 18px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+}
